@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}">
+    <title>AIで占い</title>
+</head>
+<body>
+    <nav class="naver navbar-light dg-light p-3">
+        <a class="navbar-brand pl-3" href="/" style="font-size:2rem">AI占いアプリ</a>
+    </nav>
+    <div class="row">
+        {% block body %}{% endblock %}
+    </div>
+</body>
+</html>
